@@ -27,7 +27,7 @@ description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://TheShadowEevee.github.io'
+url: 'https://theshadoweevee.github.io'
 
 github:
   username: TheShadowEevee             # change to your github username
@@ -54,7 +54,7 @@ google_site_verification: E7cacKKEC34W4nXRqJHH5Z8HlRIW4RHK1dYPEqzFTKo           
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id:                 # fill in your Google Analytics ID
+  id: G-Y8V1WKFZ6H                # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine

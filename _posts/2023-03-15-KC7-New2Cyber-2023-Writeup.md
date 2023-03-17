@@ -3,7 +3,7 @@ description: >-
   KC7 New2Cyber 2023 Writeup
 title: "KC7 New2Cyber 2023 Writeup"                   # Add title of the machine here
 date: 2023-03-16 21:39:00 -0500                           # Change the date to match completion date
-categories: []                     # Categories
+categories: [CTFs, KC7]                    # Categories
 tags: [kc7, writeup, ctf]     # TAG names should always be lowercase; add relevant tags
 show_image_post: false                                    # Change this to true
 image:                # Add image here for post preview image

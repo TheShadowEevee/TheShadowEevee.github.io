@@ -28,7 +28,7 @@ Going forward, the bulk of this event will be referred to as "the security incid
 Today is your first day as a Junior Security Operations Center (SOC) Analyst at Envolve Labs Corporation. Envolve Labs is a (fictional!) 2012 med-tech startup with a goal of designing flexible vaccine tech. Envolve Tech has 4 key partners (listed in the training guide) that will be seen throughout this event.
 
 Envolve Tech has hired you as they realize they need to invest more in Cybersecurity efforts. Envolve Labs collects log data about the activities its employees perform on the corporate network. These audit logs will be the subject of your investigations as you determine whether the company is being targeted by malicious actors.  
-<sub>All credit for the above scenario goes to KC7!<sub>
+<sub>All credit for the above scenario goes to KC7!
 
 ## Activity Summary
 
@@ -224,8 +224,9 @@ ProcessEvents
 | where hostname contains "5RT9-MACHINE"
 ```
 
-This reveals the updater.dll file running 2 commands, "whoami" and a command using Windows Task Scheduler.
-<sub>Note: This command (starting with schtasks) is the answer to Q 3.20. Use this information to complete Q 3.21; Q 3.20 does not exist due to an error.<sub>
+This reveals the updater.dll file running 2 commands, "whoami" and a command using Windows Task Scheduler.  
+<sub>Note: This command (starting with schtasks) is the answer to Q 3.20. Use this information to complete Q 3.21; Q 3.20 does not exist due to an error.  
+
 We can take the task scheduler command and check to see if other systems may have run it.
 
 ```sql

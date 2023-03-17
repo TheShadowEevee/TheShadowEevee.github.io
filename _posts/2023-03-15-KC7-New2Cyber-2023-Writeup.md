@@ -2,7 +2,7 @@
 description: >-
   KC7 New2Cyber 2023 Writeup
 title: "KC7 New2Cyber 2023 Writeup"                   # Add title of the machine here
-date: 2023-03-16 09:39:00 -0500                           # Change the date to match completion date
+date: 2023-03-17 00:51:00 -0500                           # Change the date to match completion date
 categories: []                     # Categories
 tags: [kc7, writeup, ctf]     # TAG names should always be lowercase; add relevant tags
 show_image_post: false                                    # Change this to true
@@ -40,7 +40,7 @@ Actor A could potentially be a group of malicious actors, as many domains and IP
 
 ## Actor Methods of Operation
 
-### Actor A (Actor using the 4th, 8th, and 9th)
+### Actor A
 
 Actor A used a simple phishing scheme in order to get a handful of employees to share login information or download malicious files. The extent of this campaign appears to have aimed to gain login credentials, which were used to download files from the email system.
 
@@ -56,7 +56,7 @@ Actor A operated primarily on January 4th, 8th, and 9th.
 | Command and Control | N/A |
 | Actions             | Used access to user accounts to download critical files over open internet |
 
-### Actor B (Actor using the 5th)
+### Actor B
 
 Actor B appears to be a more advanced actor than Actor A. Actor B used similar methods of initial infection, sharing malicious files via phishing emails. However, there were less emails suggesting a more targeted approach. On top of this, the infected files were better hidden using file names such as "EnvolveLabs_Research_Tool.7z", and "updater.dll". These files were designed to be stealthy and remain undetected.
 

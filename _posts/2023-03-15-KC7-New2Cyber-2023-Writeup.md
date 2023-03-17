@@ -9,7 +9,7 @@ show_image_post: false                                    # Change this to true
 image:                # Add image here for post preview image
 ---
 
-The KC7 New2Cyber Game was a Cybersecurity challenge hosted on the KC7 platform alongside the Sans New2Cyber Summit on March 14th. It was a "Jeopardy" style challenge, meaning it was broken into sections of questions you could answer at your leisure. This writeup will consider the main part of the event as sections 2 and 3, given they hold the majority of the KQL work and all of the incident discovery.
+The KC7 New2Cyber Game was a Cybersecurity challenge hosted on the KC7 platform alongside the SANS New2Cyber Summit on March 14th. It was a "Jeopardy" style challenge, meaning it was broken into sections of questions you could answer at your leisure. This writeup will consider the main part of the event as sections 2 and 3, given they hold the majority of the KQL work and all of the incident discovery.
 
 For more information on this event, you can visit the KC7 page for it at [SANS New2Cyber - KC7 (kc7cyber.com)](https://kc7cyber.com/modules/new2cyber/). This page includes the dataset used, a link to the event leaderboard/submission page, and their training guide. The training guide is a very well written explanation of Module 1 meant to guide you through learning the basics of KQL while completing most of Section 1.
 
@@ -268,3 +268,7 @@ Finishing this, that's the extent of the discovery asked for. If you'd like, fee
 If you are interested in participating in future KC7 events, I recommend checking out their website at <https://kc7cyber.com/>. I had a great time talking with others in the slack channel created for this event, and I can safely say that Question 5.20 has scarred many of us for life with how many attempts were poured into it. (The answer was a `hack and leak` attack by the way! You can read some interesting news stories if you google it.) Question 20 was the last question I had left and was the only question that resulted in me finishing everything second instead of first. Congrats to oclku9rt for pulling that out from under me for the first 100% completion!
 
 All in all, this was a great event, and I had a great time working through some of the problems presented. The KC7 platform seems to be a great learning tool with this hands-on exploration into a realistic environment simulating an actual security event you may encounter as a Security Analyst. As a participant who hasn't done something like this before, KC7 did a great job making this engaging while still keeping everything at a good skill level for those participating in the SANS New2Cyber Summit, from anyone brand new to the Cyber scene as well as long time members of the field.
+
+## Related Resources
+- [SANS Summits](https://www.sans.org/cyber-security-training-events/?event-types=summit)
+- [KC7](https://kc7cyber.com/)

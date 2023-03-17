@@ -271,5 +271,6 @@ If you are interested in participating in future KC7 events, I recommend checkin
 All in all, this was a great event, and I had a great time working through some of the problems presented. The KC7 platform seems to be a great learning tool with this hands-on exploration into a realistic environment simulating an actual security event you may encounter as a Security Analyst. As a participant who hasn't done something like this before, KC7 did a great job making this engaging while still keeping everything at a good skill level for those participating in the SANS New2Cyber Summit, from anyone brand new to the Cyber scene as well as long time members of the field.
 
 ## Related Resources
+
 - [SANS Summits](https://www.sans.org/cyber-security-training-events/?event-types=summit)
 - [KC7](https://kc7cyber.com/)

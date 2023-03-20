@@ -1,7 +1,7 @@
 ---
 description: >-
   KC7 New2Cyber 2023 Writeup
-title: "KC7 New2Cyber 2023 Writeup"                   # Add title of the machine here
+title: "A writeup of KC7's New2Cyber 2023 event"                   # Add title of the machine here
 date: 2023-03-16 21:39:00 -0500                           # Change the date to match completion date
 author: TSE
 categories: [CTFs, KC7]                    # Categories

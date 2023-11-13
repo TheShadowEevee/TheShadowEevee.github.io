@@ -110,7 +110,7 @@
 
   #vc-spotify-progress-bar > [class^="slider"] [class^="grabber"] { /* Override Progress Slider Dot */
       margin-top: 0.25em; /* Place the dot in the right spot */
-      height: 12px !important; /* Better sizing for the bar */
-      width: 12px !important; /* Better sizing for the bar */
-      border-radius: 12px !important; /* Re-round the dot */
+      height: 13px !important; /* Better sizing for the bar */
+      width: 13px !important; /* Better sizing for the bar */
+      border-radius: 13px !important; /* Re-round the dot */
   }

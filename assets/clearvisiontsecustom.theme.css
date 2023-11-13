@@ -67,7 +67,7 @@
   --offline-color: #808080;
   --main-font: gg sans;
   --code-font: Consolas;
-  --channels-width: 220px;
+  --channels-width: 240px;
   --members-width: 240px;
   --backdrop-overlay: rgba(0,0,0,0.8);
   --backdrop-image: var(--background-image);
@@ -97,9 +97,20 @@
   --rs-dnd-color: #f04747;
   --rs-offline-color: #636b75;
   --rs-streaming-color: #643da7;
-  --rs-phone-visible: block;
+  --rs-phone-visible: none;
 }
 
 /* Any custom CSS below here */
 
+/* SpotifyControls Plugin */
+  :root { /* Override BG-Overlay's to make background transparent */
+    --bg-overlay-3: rgba(0,0,0,0);
+    --bg-overlay-1: rgba(0,0,0,0);
+  }
 
+  #vc-spotify-progress-bar > [class^="slider"] [class^="grabber"] { /* Override Progress Slider Dot */
+      margin-top: 0.25em; /* Place the dot in the right spot */
+      height: 12px !important; /* Better sizing for the bar */
+      width: 12px !important; /* Better sizing for the bar */
+      border-radius: 12px !important; /* Re-round the dot */
+  }

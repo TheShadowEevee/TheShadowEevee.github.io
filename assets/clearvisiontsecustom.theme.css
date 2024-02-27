@@ -13,6 +13,7 @@
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 @import url('https://nyri4.github.io/Discolored/main.css');
 @import url('https://clearvision.github.io/Addons/transparency.css');
+@import url('https://clearvision.github.io/Addons/gradients.css');
 
 :root {
   --main-color: #2780e6;
@@ -20,7 +21,7 @@
   --success-color: #43b581;
   --danger-color: #982929;
   --url-color: var(--main-color);
-  --background-image: none;
+  --background-image: transparent;
   /*Background Below - Marisad*/
   /*--background-image: url('https://files.catbox.moe/yyc5qs.png');*/
   --background-shading: 100%;
@@ -101,6 +102,10 @@
   --rs-offline-color: #636b75;
   --rs-streaming-color: #643da7;
   --rs-phone-visible: none;
+  /* Gradients */
+  --gradient-color1: var(--main-color); /* primary color [default: var(--main-color) */
+  --gradient-color2: var(--hover-color); /* secondary color [default: var(--hover-color) */
+  --gradient-direction: 130deg; /* angle of gradient [default: 130deg] */
 }
 
 /* Any custom CSS below here */
